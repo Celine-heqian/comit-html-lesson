@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact|Celine</title>
+  </head>
+  <body>
+    <header>
+      <img src="celine.png" alt="Pic of portrait" width="300" height="400" />
+      <h2>Celine's Portofolio</h2>
+      <nav>
+        <a href="index.html">Home</a>| <a href="about.html">About</a>|
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <h1>Contact</h1>
+      <form action="contact-success.html" method="GET">
+        <div>
+          <label for="name"><b>Name:</b></label>
+          <input type="text" id="name" name="name" size="30" required />
+        </div>
+        <br />
+        <div>
+          <label for="email"><b>Email:</b></label>
+          <input type="email" id="email" name="email" size="30" required />
+        </div>
+        <br />
+        <div>
+          <label for="message" style="vertical-align: top;"
+            ><b>Message:</b></label
+          >
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="please leave a message here"
+            required
+          ></textarea>
+        </div>
+        <br />
+        <input type="submit" name="submit" value="Send" />
+      </form>
+    </main>
+  </body>
+</html>
