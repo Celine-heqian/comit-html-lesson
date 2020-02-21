@@ -1,0 +1,12 @@
+header {
+  text-align: center;
+}
+nav a {
+  color: red;
+}
+p {
+  font-size: 18px;
+}
+.another-color {
+  color: #00aced;
+}
